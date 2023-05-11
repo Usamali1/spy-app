@@ -38,7 +38,7 @@ const Sidebar = ({ isOpen, toggleDrawer }: any) => {
           <div className="w-full bg-white">
             {feature.map((item: any, index: number) => {
               return (
-                <Link href={"/"} key={index} passHref>
+                <Link href={item.path} key={index} passHref>
                   <div className=" flex w-full py-4 items-center font-[400px] transition-all duration-300 hover:bg-[#F6FBFD] border-l-[3px] border-l-transparent hover:border-l-[#828AE6]">
                     <div className="px-4 flex gap-5 items-center ">
                       <span className="text-[#4B4B4B] text-xl ">
@@ -79,7 +79,7 @@ const Sidebar = ({ isOpen, toggleDrawer }: any) => {
           <div className=" bg-white">
             {feature.map((item, index) => {
               return (
-                <Link href={"/"} key={index} passHref>
+                <Link href={item.path} key={index} >
                   <div className=" flex gap-5 mb-4 items-center font-[400px]  transition-all duration-300 hover:bg-[#F6FBFD] border-l-[3px] border-l-transparent hover:border-l-[#828AE6] ">
                     <span className="text-[#4B4B4B] text-xl ">
                       {item?.icon}
@@ -102,50 +102,62 @@ const feature = [
   {
     icon: <GoDashboard />,
     para: "Painel",
+    path: '/demo/dashboard'
   },
   {
     icon: <MdOutlineCall />,
     para: "Chamar",
+    path: '/demo/calls'
   },
   {
     icon: <RiContactsLine />,
     para: "Contato",
+    path: '/demo/contacts'
   },
   {
     icon: <FaWhatsapp />,
     para: "Mensagens",
+    path: '/demo/contacts'
   },
   {
     icon: <VscHistory />,
     para: "Localização",
+    path: '/demo/'
   },
   {
     icon: <VscHistory />,
     para: "histórico do navegador",
+    path: '/demo/location'
   },
   {
     icon: <HiOutlinePhotograph />,
     para: "Fotos",
+    path: '/demo/photos'
   },
   {
     icon: <FiVideo />,
     para: "Visualização de vídeo",
+    path: '/demo/vedio'
   },
   {
     icon: <BiMessageRounded />,
     para: "Aplicativos sociais",
+    path: '/'
   },
 
   {
     icon: <AiOutlineCalendar />,
     para: "CalendarCalendário",
+    path: '/'
   },
   {
     icon: <BsFillSimFill />,
     para: "Cartão SIM",
+    path: '/'
   },
   {
     icon: <FaRegKeyboard />,
     para: "Keylogger",
+    path: '/'
   },
 ];
