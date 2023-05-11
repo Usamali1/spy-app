@@ -1,0 +1,40 @@
+import React from 'react'
+import Layout from '@/components/Layout'
+const privacypolicy = () => {
+    return (
+        <div>
+
+            <Layout>
+                <div className='bg-[#F6FBFD] py-16 text-center  text-[#4B4B4B] text-2xl sm:text-[42px] font-[700px] mb-8 sm:mb-16 px-5'>
+                    <h1>POLÍTICA DE PRIVACIDADE Spyzie</h1>
+                </div>
+                <div className='max-w-[1100px] mx-auto px-5'>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Esta Política de Privacidade se aplica às operações de https://spyzie.io, e a empresa é aqui referida como "Nosso Site". A coleta de dados do usuário pela empresa e o processo envolvido são explicados nesta política de privacidade.</p>
+                    <h1 className='text-[#3B3B3B] text-[26px] font-[400px] mb-10'>Nosso uso das informações pessoais que você fornece</h1>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Nossos usuários podem acessar nosso site sem a necessidade de fornecer dados pessoais. No entanto, quando você compra nosso software, após instalá-lo em seus dispositivos pessoais, você será solicitado a inserir os detalhes do usuário. O método de cobrança e o modo de pagamento, que você seleciona, nos fornecem dados como seus nomes, endereço de localização, endereço de e-mail, cartão de crédito ou outras credenciais de pagamento. Seu modo de pagamento fornece detalhes ao processador de pagamento que não estão disponíveis para nós.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Nosso e-mail de boas-vindas é enviado a você depois que seu pagamento é processado e o comprovante é recebido por nós. Nossa primeira mensagem para você transmite sua verificação de login e senha necessária para acessar nosso site. Sempre que você fizer qualquer solicitação ou consulta, poderemos responder às suas perguntas por meio de seu endereço de e-mail ou método de contato preferido.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>É importante que você tome nota de que qualquer informação exigida de você a qualquer momento é necessária para aprimorar sua experiência de usuário em nosso site. A falha em fornecer os detalhes necessários pode limitar a experiência do usuário.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Embora nos esforcemos para proteger seus dados pessoais fornecidos a nós por conta própria, também é vital que você saiba que não compartilhamos esses detalhes com terceiros, exceto se você assim o autorizar. Quando você fornece seus dados em nosso site, eles são fornecidos por senha, e isso requer que você proteja sua senha contra acesso não autorizado.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Você é aconselhado a certificar-se de que, sempre que acessar nosso site a partir de computadores compartilhados, tome medidas para garantir que você saia após esses horários. Esta etapa é necessária para evitar qualquer acesso não autorizado aos seus dados pessoais. A gestão do login e senha para o nosso site é de sua responsabilidade pessoal.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>A publicidade comercial opcional de terceiros exige que comuniquemos a você por e-mail. Se você não deseja recebê-lo, pode optar por não receber a qualquer momento. Cada mensagem de e-mail nossa a esse respeito inclui uma nota de rodapé de exclusão que incorpora um link para clicar ou uma caixa para marcar para nos informar que você não deseja mais notificações comerciais.</p>
+                    <h1 className='text-[#3B3B3B] text-[26px] font-[400px] mb-10'>Controle de outras informações</h1>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Quaisquer dados demográficos obtidos de você, como idade, sexo, nível de escolaridade mais alto, renda familiar ou tamanho da família, não são expostos a terceiros com o objetivo de identificá-lo especificamente. Esses dados são compartilhados anonimamente com aplicativos ou agências de terceiros, conforme o caso.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]' >Quando você usa um site vinculado clicando no hiperlink do nosso site, nossa responsabilidade para com você termina quando você sai do nosso site. Você é incentivado a seguir a política de privacidade desse site, pois está vinculado às políticas existentes.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Todos os dados que você fornece ao usar nosso site são criptografados por meio de varredura de rede, atualizações de software e outras precauções de hardware geralmente aceitas no setor.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Nosso uso de ferramentas de segurança fornecidas por terceiros é para garantir que seus dados pessoais permaneçam confidenciais. Quando seus dados são armazenados em nosso site, empregamos o uso de firewalls para limitar o acesso e confiná-lo ao pessoal autorizado. Seus dados armazenados são criptografados e salvos em nossos servidores de disco, e esses dados são descriptografados quando exibidos a você quando você acessa nosso site.</p>
+                    <h1 className='text-[#3B3B3B] text-[26px] font-[400px] mb-10'>Divulgação legal</h1>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>O Spyzie pode compartilhar seus dados pessoais com agências de segurança com base na execução de uma ordem judicial legal ou em caso de litígio. Isso também pode ocorrer se houver um caso de fraude, violação de contratos ou para proteger os direitos e privilégios de funcionários ou clientes.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Seus dados pessoais também podem ser disponibilizados a terceiros quando nosso negócio é transferido para outro em razão de uma fusão, venda ou acordo de combinação de negócios.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Você tem o direito de excluir ou modificar seus dados pessoais em nosso site ou solicitar o mesmo acessando seus dados de login ou fazendo uma solicitação para nós. Sempre que houver uma alteração de política e uma atualização for publicada, você também poderá rejeitá-la e interromper o uso de nossos serviços, sujeito às instruções fornecidas.</p>
+                    <h1 className='text-[#3B3B3B] text-[26px] font-[400px] mb-10'>Idade legal dos usuários</h1>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Todos os usuários do nosso site são legalmente obrigados a ter pelo menos 18 anos de idade. Ao subscrever os nossos serviços ou aceder ao nosso website, está a supor que tem pelo menos 18 anos de idade. Nossos serviços não se estendem a crianças ou menores e, se você se inscrever em nossos serviços, terá a responsabilidade de impedir que menores de idade em sua casa acessem nosso site.</p>
+                    <p className='text-[#6B7C93] text-base mb-10 font-[400px]'>Você deve nos fornecer permissão para coletar as informações pessoais de seu filho se usar um software de controle parental. Se você usar nosso site junto com um software de controle parental, certifique-se de nos informar para que possamos informá-lo sobre como os dados de crianças menores de 13 anos são processados. Esses dados sobre crianças menores de idade não são divulgados a ninguém.</p>
+                    <h1 className='text-[#3B3B3B] text-[26px] font-[400px] mb-10'>Lei internacional</h1>
+                    <p className='text-[#6B7C93] text-base mb-36 font-[400px]'>Nossas políticas de privacidade são cobertas pela lei comum. Isso é aplicável sob o direito internacional a todas as nações soberanas da Terra.</p>
+                </div>
+            </Layout>
+        </div>
+    )
+}
+
+export default privacypolicy;

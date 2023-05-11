@@ -1,0 +1,171 @@
+{
+    // Navbar
+
+    navbar_product:'Produtos',
+    navbar_features:'Características'.
+    navbar_demo:'Demonstração',
+    navbar_faq:'Perguntas frequentes',
+    navbar_pricing:'preços',
+    navbar_login:'Conecte-se',
+    navbar_signUp:'Inscreva-se gratuitamente'
+    
+    home_hero_heading:'O aplicativo espião de telefone nº 1 do mundo',
+    home_hero_subHeading:'O Spyzie é usado por inúmeros pais em todo o mundo para rastrear os celulares de seus filhos. Até os empregadores usam o Spyzie para garantir que seus funcionários estejam realmente trabalhando no trabalho em questão',
+    home_hero_btn_icons:'Disponível para:',
+    home_hero_firstBtn:'Ver demonstração',
+    home_hero_secBtn:'Inscrever-se',
+
+    // Home Message Second Section
+
+    home_message_heading:'Monitor de mensagens',
+    home_message_para:'Seu filho passa muito tempo ao telefone? Eles podem estar enviando mensagens de texto para alguém que não deveriam. Por que você não descobre isso usando o Spyzie? O Spyzie permite que você visualize suas mensagens e as pessoas com quem estão trocando mensagens.',
+    home_message_btn:'saber mais',
+
+    // Home Location Center
+
+    home_location_heading:'Rastreador de localização',
+    home_location_para:'Pode ser difícil ficar de olho no seu filho 24 horas por dia,7 dias por semana, especialmente porque as crianças precisam ir à escola e a muitos outros lugares. No entanto, com o Spyzie, você sempre saberá onde eles estão rastreando sua localização.',
+    home_location_btn:'Saber mais',
+
+    // Home Spy Section 
+
+    home_spy_heading:'Recursos do aplicativo de telefone espião',
+    home_spy-contact:'Contato',
+    home_spy_contact_para:'Veja todas as pessoas que eles salvaram em sua lista de contatos com detalhes.',
+    home_spy_whatsapp:'Whatsapp Monitor',
+    home_spy_whatsapp_para:'Veja todas as suas mensagens do WhatsApp, incluindo as apagadas.',
+    home_spy_calllogs:'Registro de chamadas',
+    homw_spy_callogs_para:'Veja todo o histórico de chamadas junto com os detalhes de cada chamada.',
+    home_spy_geo:'cerca geográfica',
+    home_spy_gep_para:'Defina limites restritos em um mapa virtual para sua localização.',
+    home_spy_browse:'histórico do navegador',
+    home_spy_browse_para:'Veja todos os sites que eles visitaram, com frequência de visita.',
+    home_spy_stealth:'Modo furtivo',
+    home_spy-stealth_para:'O Spyzie é 100% oculto e invisível para que você nunca seja pego.',
+
+    // Home Remote  Section 
+
+    home_remote_heading:'Monitoramento remoto em 3 etapas fáceis,
+    home_remote_signUp:'Inscrever-se',
+    home_remote_signUp_para:'Crie uma conta gratuita do Spyzie com seu e-mail.',
+    home_remote_configure:'Configurar o Spyzie',
+    home_remote_configure_para:'O assistente de configuração do Spyzie irá guiá-lo através do processo de configuração.',
+    home_remote_start:'Iniciar monitoramento',
+    home_remote_start_para:'Acesse o painel do Spyzie e veja todos os seus dados.',
+    home_remoe_btn:'Veja nossos preços aqui',
+
+    // Why Our User Love Us 
+    
+    home_why_heading:'Por que nosso usuário nos ama',
+    home_why_para:'software muito bom e fácil de pisar e usar software muito bom e fácil de pisar e usar',
+    home_why_review:'Avalie 4,65/5 com base nas avaliações',
+    home_why_btn:'Avalie isso',
+
+
+    // Home Why Choose Spiziye
+
+    home_choose_headingL:'Por que escolher o Spyzie?',
+    home_choose_priority:'Prioridade à Segurança',
+    home_choose_priority_para:'Não há chance de seus dados serem roubados com a criptografia de classe mundial do Spyzie.',
+    home_choose_hidden:'100% oculto',
+    home_choose_hidden_para:'Ninguém pode descobrir que você está monitorando o telefone deles.',
+    home_choose_popular:'Mais popular',
+    home_choose_popular-para:'Inúmeras críticas positivas por meios de comunicação de autoridade.',
+    home_choose_customer:'Atendimento ao cliente 24/7',
+    home_choose_customer_para:'O Spyzie fornece resolução de problemas 24 horas por dia, 7 dias por semana.',
+
+
+    // home Get Started Now Section 
+
+    home_started_hero:'Comece agora',
+    home_started_para:'Proteja seus relacionamentos, pessoas e interesses. Garantia de devolução do dinheiro em 60 dias.',
+    home_started_firstBtn:'Inscrever-se',
+    home_started_sectBtn:'Ver demonstração',
+    home_started_line:'Leia mais sobre o Spyzie',
+
+    // Footer 
+
+    footer_source:'Fonte',
+    footer_features:'Características',
+    footer_company:'Empresa',
+    footer_legalinfo:'Informações legais',
+    footer_secure:'Pagamento on-line seguro:',
+    footer_source_firstLink:'Como Rastrear a Localização do Celular Gratuitamente',
+    footer_source_secLink:'Rastrear cartão SIM'.
+    footer_source_thirdLink:'Guia de instalação do Spyzie para Android',
+    footer_source_fourthLink:'Guia de Configuração do Spyzie para iOS'.
+    footer_featurs_firstlink:'Keylogger do Android',
+    footer_featurs_seclink:'Monitoramento dos pais do iPhone',
+    footer_featurs_thirdlink:'Alerta de cerca geográfica',
+    footer_featurs_fouthlink:'Espionar as mensagens do FB',
+    footer_featurs_fifthlink:'Acompanhe o histórico do site',
+    footer_company_fisrstlink:'Sobre',
+    footer_company_seclink:'perguntas frequentes',
+    footer_company_thirdlink:'Contate-nos',
+    footer_company_fouthlink:'Centro de Apoio'.,
+    footer_legalInfo_firstlink:'Politica de reembolso',
+    footer_legalInfo_seclink:'EULA',
+    footer_legalInfo_thirdlink:'Política de Privacidade',
+    footer_legalInfo_fourthlink:'política de cookies',
+    footer_legalInfo_fifthlink:'Peça um reembolso',
+    footer_disclaimer:'Isenção de responsabilidade',
+    footer_disclaimer_para:'Isso não é SPYZIE.COM. O spyzie.io não está de forma alguma relacionado ou associado ao spyzie.com. SOFTWARE DESTINADO APENAS PARA USOS LEGAIS. É violação da lei federal e/ou estadual dos Estados Unidos e da lei de sua jurisdição local instalar software de vigilância, como o Software licenciado, em um telefone celular ou outro dispositivo que você não tem o direito de monitorar. A lei geralmente exige que você notifique os usuários/proprietários do dispositivo de que ele está sendo monitorado. A violação deste requisito pode resultar em severas penalidades monetárias e criminais impostas ao infrator. Você deve consultar seu próprio consultor jurídico com relação à legalidade do uso do Software licenciado da maneira que pretende usá-lo antes de fazer o download, instalá-lo e usá-lo. Você assume total responsabilidade por determinar que tem o direito de monitorar o dispositivo no qual o Software licenciado está instalado. O Spyzie não pode ser responsabilizado se um usuário optar por monitorar um dispositivo que o usuário não tem o direito de monitorar; nem o Spyzie pode fornecer aconselhamento jurídico sobre o uso do Software licenciado.',
+    footer_copywrite:'Direitos autorais © 2023 FamiSoft Limited. Todas as marcas registradas são de propriedade de seus respectivos donos.',
+
+
+    // Faq 
+
+    faq_hero_heading:'perguntas frequentes',
+    faq_heading:'Piattaforma compatibile con tutti i dispositivi',
+    faq_para:'Compatibilidade com dispositivos (smartphone / tablet) mais difundida',
+    faq_secHeading:'Vídeo HD – Áudio da Web',
+    faq_secPara:'Vídeo de alta qualidade, áudio cristalino, sem interferência',
+    faq_thirdHeading:'Marca personalizada',
+    faq_thirdPara:'Personalização da marca Possibilidade de usar o próprio logotipo, agenda e descrição na página da web dedicada a todo o evento',
+    faq_fouthHeaading:'Compatibilidade com todos os softwares de Webconferência',
+    faq_fourthPara:'Integração com outras plataformas (GoToMeeting, MS Team, Webex, ecc..)',
+    faq_fifthHeading:'Acesso direto para todos os usuários',
+    faq_fifthPara:'Link gerado para que o usuário possa acessar inserindo ID e nome da reunião',
+    faq_sixthHeading:'Salas de conversa',
+    faq_sixthPara:'Possibilidade de comunicação em forma pública/privada em diversas estâncias',
+    faq_seventhHeading:'Aplicativos móveis',
+    faq_seventhPara:'Baixe o aplicativo Rafiky Connect (da App Store ou Google Play) no seu dispositivo, escolha o idioma desejado e ouça a conferência',
+    faq_eightHeading:'Carregar PPT',
+    faq_eightPara:'Possibilidade de carregar apresentações em powerpoint internamente na videochamada em um sistema de correção de página simples e intuitivo',
+    faq_ninthHeading:'Envio vídeo',
+    faq_ninthPara:'Possibilidade de reprodução de vídeo em alta definição no interior da videochamada',
+    faq_tenthHeading:'Tradução em + de 60 idiomas com interface NOVO!',
+    faq_tenthPara:'(estática e dinâmica (Chat e Power Point)',
+    faq_eleventhHeading:'Informazioni Speaker NOVO!',
+    faq_eleventhPara:'Sottopancia relatore con nome, cognome, ruolo e logo aziendale',
+    faq_tewelthHeading:'Alto-falante com temporizador NOVO!',
+    faq_tewelthPara:'Possibilidade de o locutor “ver” o tempo (configurado pelo moderador) a sua disposição para a intervenção',
+    faq_thirteenthHeading:'Sistema de votação virtual',
+    faq_thirteenthPara:'Sistema de votação virtual Criação e apresentação de quiz e questionário.',
+    faq_forteenthHeading:'1 GB de registro na nuvem (licença) e/o locale',
+    faq_forteenthPara:'1 GB de espaço disponível para cada licença',
+    faq_fifteenthHeading:'Reportística pós-evento',
+    faq_fifteenthPara:'Relatório técnico com: – Statistiche dei partcipanti (durata di collegamento alla conferência, rede di connessione lungo l’evento) – Resposta do sistema de votação com percentuali',
+    faq_sixteenthHeading:'E-mail personalizado',
+    faq_sixteenthPara:'Relatório técnico com: – Convidar todos os participantes com detalhes de login. – E-mail personalizado com logo cliente',
+    faq_seveniteenthHeading:'Registro de áudio multilíngue',
+    faq_seveniteenthPara:'Possibilidade de registrar o áudio da conferência em vários idiomas diferentes',
+    faq_eighteenthHeading:'Caixa de vídeo linguaggio dei segni NOVO!',
+    faq_eighteenthPara:'Finestra video in tempo reale con interprete dei segni',
+    faq_ninteenthHeading:'Salas Separadas',
+    faq_ninteenthPara:'Possibilidade de organizar uma sala plenária + outra venda em paralelo em relação a todos os temas do seu evento',
+    faq_tewentyHeading:'Serviço Stream Out NOVO!',
+    faq_tewentyPara:'Streaming on-line com branding personalizado completo, reportagem de todos os participantes, bate-papo personalizado e muito mais!',
+    faq_tewentyOneHeading:'Transmissão de mídia social',
+    faq_tewentyOnepara:'Possibilidade de registrar e transmitir o evento em tempo real para um número ilimitado de espectadores (Facebook ao vivo, Youtube, …)',
+    faq_tewentyTwoHeading:'Hostess/steward virtuali',
+    faq_tewentyTwopara:'Comunique-se de forma inovadora, personalizando seu conteúdo através de mensagens transmitidas por hostess/steward virtuali',
+    faq_tewentythreeHeading:'Aceitação de pagamentos',
+    faq_tewentythreePara:'Possibilidade de adicionar débitos e pagamentos ai participantes de todos os eventos',
+    faq_tewentyFourHeading:'URL personalizzato',
+    faq_tewentyFourPara:'Possibilidade de adicionar aos canais um URL personalizado',
+    faq_tewentyFiveHeading:'Certificado de participação',
+    faq_tewentyFivePara:'Possibilidade de criar e emitir atestados de participação em todos os eventos',
+    faq_tewentySixHeading:'Interpretação Simultânea',
+    faq_tewentySixPara:'Conferência multilíngue até 50 canais de interpretação em paralelo'
+}
