@@ -35,6 +35,7 @@ const PricngDetail = () => {
                 icon={item.icon}
                 fetures={item.fetures}
                 show={item.show}
+                showOne={item.showOne}
               />
             </div>
           );
@@ -55,6 +56,7 @@ const data = [
   {
     title: "Básica",
     value: 39.99,
+    showOne:'none',
     month: (
       <h2 className="text-[#6C7C92] text-xl font-bold text-center mb-6 ">
         <s>$49.99</s>/ Mês{" "}
@@ -103,6 +105,7 @@ const data = [
   {
     title: "Prêmio",
     value: 9.99,
+    showOne:'block',
     month: (
       <h2 className="text-[#6C7C92] text-xl font-bold text-center mb-6 ">
         <s>$69.99</s>/ Mês{" "}
@@ -170,6 +173,7 @@ const data = [
   {
     title: "Família",
     value: 69.99,
+    showOne:'none',
     month: (
       <h2 className="text-[#6C7C92] text-xl font-bold text-center mb-6 ">
         <s>$89.99</s>/ Mês{" "}
