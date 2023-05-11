@@ -37,18 +37,18 @@ const install = () => {
                     <div className=' bg-white border-[1px] pt-8 px-4 max-w-[900px] mx-auto mb-8 boxshadow'>
                         <Rating />
                     </div>
-                    <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>1. Visite https://spyzie.io no navegador da web de qualquer dispositivo. Clique no botão 'Inscreva-se' no canto superior direito. Inscreva-se no Spyzie usando seu endereço de e-mail e escolha qualquer senha.</p>
+                    <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>1. Visite https://spyzie.io no navegador da web de qualquer dispositivo. Clique no botão Inscreva-se no canto superior direito. Inscreva-se no Spyzie usando seu endereço de e-mail e escolha qualquer senha.</p>
                     <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>2. Após o processo de inscrição, selecione um plano de assinatura para telefones Android. Depois de obter uma assinatura, você será redirecionado para a página de configuração do Spyzie.</p>
                     <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>Forneça qualquer nome para o telefone que você deseja monitorar.</p>
                     <div className='flex justify-center'>
                         <Image src={"/imgone.png"} alt="img" width={880} height={600} />
                     </div>
-                    <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>3. No dispositivo de destino, vá para "Configurações"Segurança". Ative o recurso que diz "Instalar aplicativos de fontes desconhecidas".</p>
+                    <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>3. No dispositivo de destino, vá para Configurações Segurança Ative o recurso que diz Instalar aplicativos de fontes desconhecidas</p>
                     <div className='flex justify-center'>
                         <Image src={"/imgtwo.jpg"} alt="img" width={880} height={600} className='mb-6' />
                     </div>
-                    <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>No dispositivo de destino, vá para "Configurações "Google "Segurança "Google Play Protect". Desative os recursos
-                        que dizem "Melhorar a detecção de aplicativos nocivos" e "Verificar o dispositivo em busca de ameaças à segurança".</p>
+                    <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>No dispositivo de destino vá para Configurações Google Segurança Google Play Protect. Desative os recursos
+                        que dizem Melhorar a detecção de aplicativos nocivos e Verificar o dispositivo em busca de ameaças à segurança.</p>
                     <div className='flex justify-center'>
                         <Image src={"/imgthree.jpg"} alt="img" width={880} height={600} className='mb-6' />
                     </div>
@@ -58,7 +58,7 @@ const install = () => {
                     <div className='flex justify-center'>
                         <Image src={"/imgfour.jpg"} alt="img" width={880} height={600} className='mb-6' />
                     </div>
-                    <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>2. Assim que o Spyzie estiver instalado, leia a política de privacidade e clique em 'Concordo'. Entre na sua conta do Spyzie no aplicativo com o nome de usuário e a senha que você criou anteriormente.</p>
+                    <p className='text-[#3B3B3B] text-base font-[400px] mb-5'>2 Assim que o Spyzie estiver instalado leia a política de privacidade e clique em Concordo. Entre na sua conta do Spyzie no aplicativo com o nome de usuário e a senha que você criou anteriormente.</p>
                     <div className='flex justify-center'>
                         <Image src={"/imgfive.jpg"} alt="img" width={725} height={600} className='mb-6' />
                     </div>
@@ -71,7 +71,7 @@ const install = () => {
                     <div className='flex justify-center'>
                         <Image src={"/imgseven.png"} alt="img" width={880} height={600} className='mb-6' />
                     </div>
-                    < p className='text-[#3B3B3B] text-base font-[400px] mb-5'>Durante o primeiro uso, o painel pode demorar um pouco mais para carregar. Isso ocorre porque o Spyzie está sincronizando todos os seus dados. Aguarde durante este tempo de carregamento. Depois que os dados forem sincronizados, eles estarão disponíveis em seu painel. Você pode atualizar os dados sempre que quiser usando o botão 'Atualizar' na extremidade superior do painel. Lembre-se de que o Spyzie sincroniza novos dados apenas quando o dispositivo de destino está conectado à Internet.</p>
+                    < p className='text-[#3B3B3B] text-base font-[400px] mb-5'>Durante o primeiro uso o painel pode demorar um pouco mais para carregar. Isso ocorre porque o Spyzie está sincronizando todos os seus dados. Aguarde durante este tempo de carregamento. Depois que os dados forem sincronizados eles estarão disponíveis em seu painel. Você pode atualizar os dados sempre que quiser usando o botão Atualizar na extremidade superior do painel. Lembre-se de que o Spyzie sincroniza novos dados apenas quando o dispositivo de destino está conectado à Internet.</p>
                     <div className='flex justify-center'>
                         <Image src={"/final.png"} alt="img" width={880} height={600} className='mb-10' />
                     </div>
