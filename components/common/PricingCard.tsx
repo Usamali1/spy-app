@@ -20,6 +20,7 @@ interface MainCards {
   icon: any;
   show: any;
   fetures: string[];
+  showOne: any;
 }
 
 const PricingCard: FC<MainCards> = ({
@@ -37,6 +38,7 @@ const PricingCard: FC<MainCards> = ({
   icon,
   fetures,
   show,
+  showOne
 }) => {
   const [activeBox, setactiveBox] = useState(0);
 
@@ -76,6 +78,11 @@ const PricingCard: FC<MainCards> = ({
           <span className="text-[#3B3B3B] text-sm bg-[#EBF9F8] py-1 px-3 mb-9    text-center">
             {device}
           </span>
+          <div className={'bg-[#F77062] py-1 px-3 h-[27px] text-white text-sm'}
+            style={{
+              display: showOne
+            }}
+          >Mais Popular</div>
         </div>
         <div className="flex gap-2 items-center mb-5">
           <div
