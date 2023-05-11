@@ -1,7 +1,6 @@
 import React, { FC, useState } from "react";
 import Button from "./Button";
-import { AiOutlineCheck } from 'react-icons/ai';
-
+import { AiOutlineCheck } from "react-icons/ai";
 interface MainCards {
   title: string;
   value: number;
@@ -21,7 +20,6 @@ interface MainCards {
   icon: any;
   show: any;
   fetures: string[];
-  showOne: any;
 }
 
 const PricingCard: FC<MainCards> = ({
@@ -35,28 +33,27 @@ const PricingCard: FC<MainCards> = ({
   button,
   required,
   color,
-  ColorText,
-  check_Box,
   root_title,
   icon,
-  para,
   fetures,
   show,
-  showOne
 }) => {
-  const [activeBox, setactiveBox] = useState(false);
+  const [activeBox, setactiveBox] = useState(0);
 
-  const handleClick = (buttonId) => {
+  const handleClick = (buttonId: any) => {
     setactiveBox(buttonId);
   };
 
   return (
     <div className=" overflow-hidden relative border-[1px] rounded-[5px]">
-      <div className="item-right"
+      <div
+        className="item-right"
         style={{
-          display: show
+          display: show,
         }}
-      >SALVAR 86%</div>
+      >
+        SALVAR 86%
+      </div>
       <div
         style={{
           backgroundColor: color,
@@ -79,47 +76,41 @@ const PricingCard: FC<MainCards> = ({
           <span className="text-[#3B3B3B] text-sm bg-[#EBF9F8] py-1 px-3 mb-9    text-center">
             {device}
           </span>
-          <div className={'bg-[#F77062] py-1 px-3 h-[27px] text-white text-sm'}
-            style={{
-              display: showOne
-            }}
-          >Mais Popular</div>
         </div>
         <div className="flex gap-2 items-center mb-5">
-          <div className="flex w-[20px]">
-            {check_Box}
-            <span
-              className={`text-xs text-center rounded-full w-full h-full p-[3px] bg-transparent hover:bg-red-500 border hover:text-white cursor-pointer border-gray-200 ${activeBox === 1 ? 'text-white bg-red-500' : ''
-                }`}
-              onClick={() => handleClick(1)}
-            >
-              <AiOutlineCheck />
-            </span>
+          <div
+            className={`text-xs flex justify-center items-center rounded-full w-6 h-6  hover:bg-red-500 border hover:text-white cursor-pointer  ${activeBox === 1
+              ? "text-white bg-red-500"
+              : " bg-white border-gray-200"
+              }`}
+            onClick={() => handleClick(1)}
+          >
+            <span> <AiOutlineCheck className="text-white" /></span>
           </div>
           <div>{One_Month}</div>
         </div>
         <div className="flex gap-2 items-center mb-5">
-          <div className="flex w-[20px]">
-            {check_Box}
-            <span
-              className={`text-xs text-center rounded-full w-full h-full p-[3px] bg-transparent hover:bg-red-500 border hover:text-white cursor-pointer border-gray-200 ${activeBox === 2 ? 'text-white bg-red-500' : ''
-                }`}
-              onClick={() => handleClick(2)}
-            >
-              <AiOutlineCheck />
-            </span>
+          <div
+            className={`text-xs flex justify-center items-center rounded-full w-6 h-6  hover:bg-red-500 border hover:text-white cursor-pointer  ${activeBox === 2
+              ? "text-white bg-red-500"
+              : " bg-white border-gray-200"
+              }`}
+            onClick={() => handleClick(2)}
+          >
+            <span><AiOutlineCheck className="text-white" /></span>
           </div>
           <div>{Three_Month}</div>
         </div>
         <div className="flex gap-2 items-center mb-5">
-          <div className="flex w-[20px]">
-            {check_Box}
-            <span
-              className={`text-xs text-center rounded-full w-full h-full p-[3px] bg-transparent hover:bg-red-500 border hover:text-white cursor-pointer border-gray-200 ${activeBox === 3 ? 'text-white bg-red-500' : ''
-                }`}
-              onClick={() => handleClick(3)}
-            >
-              <AiOutlineCheck />
+          <div
+            className={`text-xs flex justify-center items-center rounded-full w-6 h-6  hover:bg-red-500 border hover:text-white cursor-pointer  ${activeBox === 3
+              ? "text-white bg-red-500"
+              : " bg-white border-gray-200"
+              }`}
+            onClick={() => handleClick(3)}
+          >
+            <span >
+              <AiOutlineCheck className="text-white" />
             </span>
           </div>
           <div>{Tweleve_Month}</div>
