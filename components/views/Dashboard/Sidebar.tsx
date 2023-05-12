@@ -117,17 +117,17 @@ const feature = [
   {
     icon: <FaWhatsapp />,
     para: "Mensagens",
-    path: '/demo/contacts'
+    path: '/demo/messages'
   },
   {
     icon: <VscHistory />,
     para: "Localização",
-    path: '/demo/'
+    path: '/demo/location'
   },
   {
     icon: <VscHistory />,
     para: "histórico do navegador",
-    path: '/demo/location'
+    path: '/demo/history'
   },
   {
     icon: <HiOutlinePhotograph />,
