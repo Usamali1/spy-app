@@ -4,7 +4,7 @@ import { AiOutlineDown } from "react-icons/ai";
 import { BsDownload, BsPlayFill } from "react-icons/bs";
 import { MdArrowDropDown } from "react-icons/md";
 import { RxCaretSort } from "react-icons/rx";
-import { HiOutlineCalendarDays } from "react-icons/hi";
+import { HiOutlineCalendarDays } from "react-icons/hi2";
 
 import Dashboard from "@/components/views/Dashboard";
 
