@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import { AiOutlineDown } from "react-icons/ai";
 import { BsDownload, BsPlayFill } from "react-icons/bs";
@@ -8,7 +8,7 @@ import { HiOutlineCalendarDays } from "react-icons/hi2";
 
 import Dashboard from "@/components/views/Dashboard";
 
-const vedio = (): JSX.Element => {
+const VideoPage = () => {
     const [open, setOpen] = useState<number | null>(null);
 
     const handleOpen = (index: number) => {
@@ -146,7 +146,7 @@ const vedio = (): JSX.Element => {
     );
 };
 
-export default vedio;
+export default VideoPage;
 
 const data = [
     {
