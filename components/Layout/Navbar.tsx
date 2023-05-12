@@ -179,7 +179,7 @@ const NavbarPrice = () => {
           >
             <div className="bg-[#F6FBFD] flex justify-between items-center px-2">
               <div className="py-6 px-4">
-                <img src="/logospy.png" alt="img" className="w-32" />
+                <Image src="/logospy.png" alt="img" className="w-32" />
               </div>
               <span className="text-xl cursor-pointer" onClick={toggleDrawer}><RxCross1 /></span>
             </div>
