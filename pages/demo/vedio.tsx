@@ -8,7 +8,7 @@ import { HiOutlineCalendarDays } from "react-icons/hi2";
 
 import Dashboard from "@/components/views/Dashboard";
 
-const Video = (): JSX.Element => {
+const vedio = (): JSX.Element => {
     const [open, setOpen] = useState<number | null>(null);
 
     const handleOpen = (index: number) => {
