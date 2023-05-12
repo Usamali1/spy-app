@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { AiOutlineDown } from "react-icons/ai";
 import { BsDownload } from "react-icons/bs";
-import Picture from "../components/common/Picture";
+import Picture from "../../components/common/Picture";
 import Dashboard from "@/components/views/Dashboard";
 
 const Photos = () => {
