@@ -100,7 +100,7 @@ const NavbarPrice = () => {
                       Chamar
                     </li>
                     </Link>
-                    <Link href={'/snapchat-spy'}>  <li className="flex gap-4 w-full items-center px-3 py-2 text-sm hover:text-[#91A3F2] hover:bg-gray-100">
+                    <Link href={'/contactus'}>  <li className="flex gap-4 w-full items-center px-3 py-2 text-sm hover:text-[#91A3F2] hover:bg-gray-100">
                       <span className={'text-xl'}>
                         <IoMdContact />
                       </span>

@@ -4,13 +4,14 @@ import { AiOutlineDown } from "react-icons/ai";
 import { BsDownload, BsPlayFill } from "react-icons/bs";
 import { MdArrowDropDown } from "react-icons/md";
 import { RxCaretSort } from "react-icons/rx";
-import { HiOutlineCalendarDays } from "react-icons/hi2";
+import { HiOutlineCalendarDays } from "react-icons/hi";
+
 import Dashboard from "@/components/views/Dashboard";
 
-const vedio = () => {
-    const [open, setOpen] = useState(null);
+const Video = (): JSX.Element => {
+    const [open, setOpen] = useState<number | null>(null);
 
-    const handleOpen = (index) => {
+    const handleOpen = (index: number) => {
         setOpen(prevOpen => prevOpen === index ? null : index);
     }
 

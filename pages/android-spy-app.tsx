@@ -185,7 +185,7 @@ const Product = () => {
                 Afaste os seus filhos dos perigos de sites maliciosos de forma ativa, monitorando diretamente nos acessos aos conteúdos da internet.
               </p>
               <p className="text-[#6B7C93] text-base font-[400px] mb-7">
-                Conteúdo inapropriado, Predadores, contas falsas de "amigos para conversar", Bullying on-line, Enganações virtuais, Vírus e malware, Vício à internet, compras inesperadas para apicativos na loja ou jogos, são alguns exemplos de situações do mundo virtual que poderão ser evitados ao monitorar o aparelho através do Spyzie.
+                Conteúdo inapropriado, Predadores, contas falsas de amigos para conversar, Bullying on-line, Enganações virtuais, Vírus e malware, Vício à internet, compras inesperadas para apicativos na loja ou jogos, são alguns exemplos de situações do mundo virtual que poderão ser evitados ao monitorar o aparelho através do Spyzie.
               </p>
             </div>
           </div>

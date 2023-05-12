@@ -33,8 +33,7 @@ const PricngDetail = () => {
                 root_title={item.root_title}
                 para={item.para}
                 icon={item.icon}
-                fetures={item.fetures}
-              />
+                fetures={item.fetures} bgColor={undefined} show={undefined} showOne={undefined}              />
             </div>
           );
         })}
