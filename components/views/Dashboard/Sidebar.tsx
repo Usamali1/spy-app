@@ -139,25 +139,4 @@ const feature = [
     para: "Visualização de vídeo",
     path: '/demo/vedio'
   },
-  {
-    icon: <BiMessageRounded />,
-    para: "Aplicativos sociais",
-    path: '/'
-  },
-
-  {
-    icon: <AiOutlineCalendar />,
-    para: "CalendarCalendário",
-    path: '/'
-  },
-  {
-    icon: <BsFillSimFill />,
-    para: "Cartão SIM",
-    path: '/'
-  },
-  {
-    icon: <FaRegKeyboard />,
-    para: "Keylogger",
-    path: '/'
-  },
 ];

@@ -35,8 +35,8 @@ const PricngDetail = () => {
                 icon={item.icon}
                 fetures={item.fetures}
                 show={item.show}
-                showOne={item.showOne}
-              />
+                showOne={item.showOne} 
+                bgColor={undefined}              />
             </div>
           );
         })}
